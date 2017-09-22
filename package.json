@@ -1,9 +1,9 @@
 {
-  "name": "Phaser3ES6Webpack",
-  "version": "1.0.0",
+  "name": "Rollout",
+  "version": "0.1",
   "description": "",
-  "author": "niklas berg <me@niklasberg.se>",
-  "main": "index.js",
+  "author": "Aaron Griffin",
+  "main": "index.html",
   "scripts": {
     "dev": "webpack",
     "deploy": "webpack --config webpack.production.config.js",
