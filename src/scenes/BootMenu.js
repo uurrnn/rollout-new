@@ -23,18 +23,17 @@ class BootMenu extends Phaser.Scene {
     config = {
       x: 100,
       y: 180,
-      text: '[A] Spinning mushroom\n[B] Player Demo (input)',
+      text: '[A] Play',
       style: {
         font: '48px Arial',
-        fill: '#ff00ff',
+        fill: '#88aa88',
         align: 'center'
       }
     }
     this.make.text(config)
 
     this.input = [
-      {key: this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.A), scene: 'MushroomScene'},
-      {key: this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.B), scene: 'PlayerScene'}
+      {key: this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.A), scene: 'PlayerScene'}
     ]
   }
 
