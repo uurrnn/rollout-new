@@ -1,9 +1,9 @@
 {
-  "name": "Rollout",
-  "version": "0.1",
+  "name": "Phaser3ES6Webpack",
+  "version": "1.0.0",
   "description": "",
-  "author": "Aaron Griffin",
-  "main": "index.html",
+  "author": "niklas berg <me@niklasberg.se>",
+  "main": "index.js",
   "scripts": {
     "dev": "webpack",
     "deploy": "webpack --config webpack.production.config.js",
@@ -28,7 +28,7 @@
     "webpack": "^3.4.1"
   },
   "dependencies": {
-    "phaser": "3.0.0-beta.1",
+    "phaser": "3.0.0-beta.5",
     "webfontloader": "^1.6.28"
   }
 }

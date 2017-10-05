@@ -8,8 +8,8 @@ import MushroomScene from './scenes/examples/MushroomScene';
 let config = {
     type: Phaser.AUTO,
     parent: 'content',
-    width: 768,
-    height: 432,
+    width: 800,
+    height: 600,
     scene: [
       BootScene,
       BootMenu,
