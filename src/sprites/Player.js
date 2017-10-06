@@ -20,7 +20,6 @@ export default class Player extends Phaser.GameObjects.Sprite {
       }
     }
 
-
     scene.anims.create(animationConfig.walkLeft)
     scene.anims.create(animationConfig.walkRight)
 
@@ -30,8 +29,8 @@ export default class Player extends Phaser.GameObjects.Sprite {
     // this.scaleY = 2
 
     this.setInteractive()
-    this.leftKey = scene.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.LEFT)
-    this.rightKey = scene.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.RIGHT)
+    this.leftKey = scene.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.A)
+    this.rightKey = scene.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.D)
     console.log(this)
 
     config.scene.add.existing(this)

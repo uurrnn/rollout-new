@@ -18,8 +18,8 @@ class PlayerScene extends Phaser.Scene {
       x: this.game.config.width/2,
       y: this.game.config.height/2-150,
     });
-    this.player.scaleX=10;
-    this.player.scaleY=10;
+    this.player.scaleX=2;
+    this.player.scaleY=2;
   }
 
   update(){
