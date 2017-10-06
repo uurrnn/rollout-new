@@ -9,7 +9,7 @@ class BootMenu extends Phaser.Scene {
     let config = {
       x: 100,
       y: 100,
-      text: 'Phaser 3 - Examples',
+      text: 'Rollout',
       style: {
         font: '64px Arial',
         fill: '#ff00ff',
